@@ -382,30 +382,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86fbaf664c0f73049ab5d67e60db4318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assignment.Assignment
-  as01Words: []
-  as02Numbers: 
-  as03Input: 
+  as01Words:
+  - apple
+  - banana
+  - apple
+  - cherry
+  - banana
+  - apple
+  as02Numbers: 01000000020000000300000002000000010000000300000001000000
+  as03Input: As03 Input
   as04List:
-    values: 
+    values: 0100000002000000030000000400000005000000
   as05List:
-    values: []
+    values:
+    - A
+    - B
+    - C
   as06FirstDictionary:
-    entries: []
+    entries:
+    - key: 'apple '
+      value: 3
+    - key: 'banana '
+      value: 2
   as06SecondDictionary:
-    entries: []
+    entries:
+    - key: apple
+      value: 1
+    - key: cherry
+      value: 4
   as07List:
-    values: 
-  as08Numbers: 
+    values: 01000000020000000200000003000000030000000300000004000000
+  as08Numbers: 010000000200000003000000020000000200000001000000
   as09Inventory:
-    entries: []
-  as09ItemName: 
-  as09Quantity: 0
+    entries:
+    - key: sword
+      value: 1
+    - key: potion
+      value: 5
+  as09ItemName: shield
+  as09Quantity: 2
   as10EventQueue:
-    values: []
+    values:
+    - eventType: 'enemy '
+      name: Goblin appeared
+      priority: 1
+    - eventType: powerup
+      name: Health boost found
+      priority: 1
+    - eventType: level
+      name: Reached level 2
+      priority: 1
   as11PlayerStats:
-    entries: []
-  as11StatName: 
-  as11Value: 0
+    entries:
+    - key: kills
+      value: 10
+    - key: deaths
+      value: 2
+  as11StatName: kills
+  as11Value: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
